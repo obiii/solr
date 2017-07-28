@@ -1,0 +1,1287 @@
+2017-07-25 11:45:23.702 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-07-25 11:45:26.009 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.6.0
+2017-07-25 11:45:26.010 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-07-25 11:45:26.010 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/obiii/Desktop/solr-6.6.0
+2017-07-25 11:45:26.137 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-07-25T11:45:26.014Z
+2017-07-25 11:45:26.138 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-07-25 11:45:26.319 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/obiii/Desktop/solr-6.6.0/server/solr
+2017-07-25 11:45:26.356 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/obiii/Desktop/solr-6.6.0/server/solr/solr.xml
+2017-07-25 11:45:30.312 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-07-25 11:45:33.070 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 9 core definitions underneath /home/obiii/Desktop/solr-6.6.0/server/solr
+2017-07-25 11:45:33.078 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [PersonImages, ExcelDocs, Intelpol, WordDocs, ImageDocs, PdfDocs, distributedtweets, PersonalInfo, CrimeInfo]
+2017-07-25 11:45:34.042 INFO  (main) [   ] o.e.j.s.Server Started @16153ms
+2017-07-25 11:45:34.063 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.c.SolrResourceLoader [Intelpol] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:45:34.062 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.c.SolrResourceLoader [PersonImages] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:45:34.067 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.c.SolrResourceLoader [ExcelDocs] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:45:35.723 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:45:35.727 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:45:35.761 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:45:37.359 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.s.IndexSchema [Intelpol] Schema name=example-data-driven-schema
+2017-07-25 11:45:37.428 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.s.IndexSchema [PersonImages] Schema name=example-data-driven-schema
+2017-07-25 11:45:37.364 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.s.IndexSchema [ExcelDocs] Schema name=example-data-driven-schema
+2017-07-25 11:45:43.765 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:45:43.773 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:45:43.819 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:45:44.377 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.c.CoreContainer Creating SolrCore 'PersonImages' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/PersonImages, trusted=true
+2017-07-25 11:45:44.409 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.c.CoreContainer Creating SolrCore 'ExcelDocs' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/ExcelDocs, trusted=true
+2017-07-25 11:45:44.469 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.c.CoreContainer Creating SolrCore 'Intelpol' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/Intelpol, trusted=true
+2017-07-25 11:45:45.250 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:45:45.250 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:45:45.251 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:45:45.290 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.c.SolrCore [[Intelpol] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/Intelpol], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/Intelpol/data/]
+2017-07-25 11:45:45.290 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.c.SolrCore [[ExcelDocs] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/ExcelDocs], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/ExcelDocs/data/]
+2017-07-25 11:45:45.303 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.c.SolrCore [[PersonImages] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/PersonImages], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/PersonImages/data/]
+2017-07-25 11:45:45.537 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:45:45.539 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:45:45.539 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:45:48.134 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:45:48.135 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:45:48.180 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:45:48.152 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:45:48.180 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:45:48.180 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:45:48.244 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:45:48.244 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:45:48.246 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:45:48.262 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:45:48.298 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:45:48.298 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:45:48.608 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.s.SolrIndexSearcher Opening [Searcher@65ffdde1[PersonImages] main]
+2017-07-25 11:45:48.745 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/PersonImages/conf
+2017-07-25 11:45:48.815 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.s.SolrIndexSearcher Opening [Searcher@2ceca57a[ExcelDocs] main]
+2017-07-25 11:45:48.826 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/ExcelDocs/conf
+2017-07-25 11:45:48.887 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:45:48.891 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:45:48.915 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.s.SolrIndexSearcher Opening [Searcher@4c4b2b30[Intelpol] main]
+2017-07-25 11:45:48.934 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/Intelpol/conf
+2017-07-25 11:45:48.934 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:45:48.941 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:45:48.944 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/ExcelDocs/conf/elevate.xml
+2017-07-25 11:45:48.956 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:45:48.959 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/Intelpol/conf/elevate.xml
+2017-07-25 11:45:48.960 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:45:48.961 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/PersonImages/conf/elevate.xml
+2017-07-25 11:45:49.043 INFO  (coreLoadExecutor-6-thread-3) [   x:Intelpol] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:45:49.044 INFO  (coreLoadExecutor-6-thread-2) [   x:ExcelDocs] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:45:49.044 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:45:49.213 INFO  (searcherExecutor-7-thread-1-processing-x:PersonImages) [   x:PersonImages] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@65ffdde1[PersonImages] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:45:49.213 INFO  (searcherExecutor-7-thread-1-processing-x:PersonImages) [   x:PersonImages] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:45:49.213 INFO  (searcherExecutor-7-thread-1-processing-x:PersonImages) [   x:PersonImages] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:45:49.219 INFO  (searcherExecutor-9-thread-1-processing-x:Intelpol) [   x:Intelpol] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4c4b2b30[Intelpol] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3) Uninverting(_2(6.6.0):C1) Uninverting(_3(6.6.0):C3)))}
+2017-07-25 11:45:49.219 INFO  (searcherExecutor-9-thread-1-processing-x:Intelpol) [   x:Intelpol] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:45:49.220 INFO  (searcherExecutor-9-thread-1-processing-x:Intelpol) [   x:Intelpol] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:45:49.221 INFO  (searcherExecutor-7-thread-1-processing-x:PersonImages) [   x:PersonImages] o.a.s.c.SolrCore [PersonImages] Registered new searcher Searcher@65ffdde1[PersonImages] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:45:49.214 INFO  (searcherExecutor-8-thread-1-processing-x:ExcelDocs) [   x:ExcelDocs] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2ceca57a[ExcelDocs] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3)))}
+2017-07-25 11:45:49.221 INFO  (searcherExecutor-8-thread-1-processing-x:ExcelDocs) [   x:ExcelDocs] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:45:49.221 INFO  (searcherExecutor-8-thread-1-processing-x:ExcelDocs) [   x:ExcelDocs] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:45:49.221 INFO  (searcherExecutor-9-thread-1-processing-x:Intelpol) [   x:Intelpol] o.a.s.c.SolrCore [Intelpol] Registered new searcher Searcher@4c4b2b30[Intelpol] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3) Uninverting(_2(6.6.0):C1) Uninverting(_3(6.6.0):C3)))}
+2017-07-25 11:45:49.221 INFO  (searcherExecutor-8-thread-1-processing-x:ExcelDocs) [   x:ExcelDocs] o.a.s.c.SolrCore [ExcelDocs] Registered new searcher Searcher@2ceca57a[ExcelDocs] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3)))}
+2017-07-25 11:45:49.247 INFO  (coreLoadExecutor-6-thread-1) [   x:PersonImages] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573894906704822272
+2017-07-25 11:45:49.424 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader [PdfDocs] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:45:49.439 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader [ImageDocs] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:45:49.446 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader [WordDocs] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:45:49.606 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:45:49.612 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:45:49.739 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:45:50.552 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema [ImageDocs] Schema name=example-data-driven-schema
+2017-07-25 11:45:50.558 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [PdfDocs] Schema name=example-data-driven-schema
+2017-07-25 11:45:50.585 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [WordDocs] Schema name=example-data-driven-schema
+2017-07-25 11:45:53.289 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:45:53.309 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:45:53.348 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:45:53.439 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'WordDocs' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/WordDocs, trusted=true
+2017-07-25 11:45:53.439 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:45:53.439 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrCore [[WordDocs] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/WordDocs], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/WordDocs/data/]
+2017-07-25 11:45:53.458 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.CoreContainer Creating SolrCore 'ImageDocs' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/ImageDocs, trusted=true
+2017-07-25 11:45:53.458 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:45:53.458 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrCore [[ImageDocs] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/ImageDocs], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/ImageDocs/data/]
+2017-07-25 11:45:53.467 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'PdfDocs' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/PdfDocs, trusted=true
+2017-07-25 11:45:53.468 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:45:53.468 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrCore [[PdfDocs] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/PdfDocs], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/PdfDocs/data/]
+2017-07-25 11:45:53.480 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:45:53.492 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:45:53.525 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:45:53.688 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:45:53.688 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:45:53.701 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:45:53.701 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:45:53.719 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:45:53.728 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:45:54.374 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:45:54.374 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:45:54.382 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:45:54.383 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:45:54.461 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:45:54.461 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:45:54.569 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@1260347f[WordDocs] main]
+2017-07-25 11:45:54.570 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/WordDocs/conf
+2017-07-25 11:45:54.571 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:45:54.571 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:45:54.571 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/WordDocs/conf/elevate.xml
+2017-07-25 11:45:54.582 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@6ac59225[PdfDocs] main]
+2017-07-25 11:45:54.582 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/PdfDocs/conf
+2017-07-25 11:45:54.583 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:45:54.583 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:45:54.583 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/PdfDocs/conf/elevate.xml
+2017-07-25 11:45:54.599 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:45:54.604 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:45:54.611 INFO  (searcherExecutor-24-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6ac59225[PdfDocs] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3)))}
+2017-07-25 11:45:54.611 INFO  (searcherExecutor-24-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:45:54.611 INFO  (searcherExecutor-24-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:45:54.612 INFO  (searcherExecutor-24-thread-1) [   ] o.a.s.c.SolrCore [PdfDocs] Registered new searcher Searcher@6ac59225[PdfDocs] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3)))}
+2017-07-25 11:45:54.619 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1260347f[WordDocs] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3)))}
+2017-07-25 11:45:54.620 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:45:54.620 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:45:54.620 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.SolrCore [WordDocs] Registered new searcher Searcher@1260347f[WordDocs] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3)))}
+2017-07-25 11:45:54.714 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader [PersonalInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:45:54.718 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader [distributedtweets] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:45:54.939 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@bede241[ImageDocs] main]
+2017-07-25 11:45:54.954 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/ImageDocs/conf
+2017-07-25 11:45:54.954 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:45:54.954 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:45:54.955 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/ImageDocs/conf/elevate.xml
+2017-07-25 11:45:54.974 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:45:54.996 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:45:55.004 INFO  (searcherExecutor-23-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@bede241[ImageDocs] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C1) Uninverting(_1(6.6.0):C1) Uninverting(_2(6.6.0):C1)))}
+2017-07-25 11:45:55.005 INFO  (searcherExecutor-23-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:45:55.005 INFO  (searcherExecutor-23-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:45:55.015 INFO  (searcherExecutor-23-thread-1) [   ] o.a.s.c.SolrCore [ImageDocs] Registered new searcher Searcher@bede241[ImageDocs] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C1) Uninverting(_1(6.6.0):C1) Uninverting(_2(6.6.0):C1)))}
+2017-07-25 11:45:55.026 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:45:55.093 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader [CrimeInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:45:55.198 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [PersonalInfo] Schema name=example-data-driven-schema
+2017-07-25 11:45:55.202 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:45:55.414 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [distributedtweets] Schema name=example-data-driven-schema
+2017-07-25 11:45:55.622 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema [CrimeInfo] Schema name=example-data-driven-schema
+2017-07-25 11:45:57.022 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:45:57.051 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:45:57.064 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:45:57.144 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'distributedtweets' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/distributedtweets, trusted=true
+2017-07-25 11:45:57.144 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:45:57.144 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrCore [[distributedtweets] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/distributedtweets], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/distributedtweets/data/]
+2017-07-25 11:45:57.150 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'PersonalInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/PersonalInfo, trusted=true
+2017-07-25 11:45:57.150 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:45:57.150 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrCore [[PersonalInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/PersonalInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/PersonalInfo/data/]
+2017-07-25 11:45:57.150 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.CoreContainer Creating SolrCore 'CrimeInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/CrimeInfo, trusted=true
+2017-07-25 11:45:57.150 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:45:57.151 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrCore [[CrimeInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/CrimeInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/CrimeInfo/data/]
+2017-07-25 11:45:57.155 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:45:57.165 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:45:57.171 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:45:57.258 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:45:57.258 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:45:57.258 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:45:57.258 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:45:57.260 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:45:57.261 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:45:57.261 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:45:57.261 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:45:57.264 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:45:57.264 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:45:58.084 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@523e624e[CrimeInfo] main]
+2017-07-25 11:45:58.085 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/CrimeInfo/conf
+2017-07-25 11:45:58.085 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:45:58.085 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:45:58.085 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/CrimeInfo/conf/elevate.xml
+2017-07-25 11:45:58.092 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@45704e07[distributedtweets] main]
+2017-07-25 11:45:58.093 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/distributedtweets/conf
+2017-07-25 11:45:58.093 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:45:58.093 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:45:58.094 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/distributedtweets/conf/elevate.xml
+2017-07-25 11:45:58.097 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:45:58.099 INFO  (searcherExecutor-39-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@523e624e[CrimeInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:45:58.099 INFO  (searcherExecutor-39-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:45:58.099 INFO  (searcherExecutor-39-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:45:58.101 INFO  (searcherExecutor-39-thread-1) [   ] o.a.s.c.SolrCore [CrimeInfo] Registered new searcher Searcher@523e624e[CrimeInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:45:58.103 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573894915991011328
+2017-07-25 11:45:58.106 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:45:58.106 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:45:58.116 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:45:58.128 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573894916017225728
+2017-07-25 11:45:58.134 INFO  (searcherExecutor-37-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@45704e07[distributedtweets] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:45:58.134 INFO  (searcherExecutor-37-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:45:58.134 INFO  (searcherExecutor-37-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:45:58.135 INFO  (searcherExecutor-37-thread-1) [   ] o.a.s.c.SolrCore [distributedtweets] Registered new searcher Searcher@45704e07[distributedtweets] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:45:58.143 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@28875303[PersonalInfo] main]
+2017-07-25 11:45:58.143 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/PersonalInfo/conf
+2017-07-25 11:45:58.143 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:45:58.143 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:45:58.144 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/PersonalInfo/conf/elevate.xml
+2017-07-25 11:45:58.158 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:45:58.158 INFO  (searcherExecutor-38-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@28875303[PersonalInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3)))}
+2017-07-25 11:45:58.158 INFO  (searcherExecutor-38-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:45:58.158 INFO  (searcherExecutor-38-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:45:58.161 INFO  (searcherExecutor-38-thread-1) [   ] o.a.s.c.SolrCore [PersonalInfo] Registered new searcher Searcher@28875303[PersonalInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3)))}
+2017-07-25 11:47:04.086 INFO  (qtp1205044462-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=61
+2017-07-25 11:47:04.179 INFO  (qtp1205044462-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=19
+2017-07-25 11:47:04.197 INFO  (qtp1205044462-18) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2017-07-25 11:47:04.197 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=PInfo&action=STATUS&wt=json} status=0 QTime=2
+2017-07-25 11:47:04.308 INFO  (qtp1205044462-20) [   ] o.a.s.h.a.CoreAdminOperation core create command name=PInfo&action=CREATE&instanceDir=PInfo&wt=json
+2017-07-25 11:47:04.356 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.SolrResourceLoader [PInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:47:04.423 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:47:04.585 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.IndexSchema [PInfo] Schema name=example-data-driven-schema
+2017-07-25 11:47:04.918 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:47:04.972 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.CoreContainer Creating SolrCore 'PInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo, trusted=true
+2017-07-25 11:47:04.972 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:47:04.972 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.SolrCore [[PInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/data/]
+2017-07-25 11:47:05.365 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:47:05.408 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:47:05.409 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:47:05.409 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:47:05.409 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:47:05.410 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@5cce3db[PInfo] main]
+2017-07-25 11:47:05.411 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf
+2017-07-25 11:47:05.411 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:47:05.411 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:47:05.411 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/elevate.xml
+2017-07-25 11:47:05.417 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:47:05.419 INFO  (searcherExecutor-52-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5cce3db[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:47:05.420 INFO  (searcherExecutor-52-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:47:05.420 INFO  (searcherExecutor-52-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:47:05.420 INFO  (searcherExecutor-52-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@5cce3db[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:47:05.420 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573894986578001920
+2017-07-25 11:47:05.421 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=PInfo&action=CREATE&instanceDir=PInfo&wt=json} status=0 QTime=1113
+2017-07-25 11:51:49.959 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{} 0 45
+2017-07-25 11:51:49.976 ERROR (qtp1205044462-14) [   x:PInfo] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Cannot parse provided JSON: Expected key,value separator ':': char=M,position=49 BEFORE=' [ {"name":"Irfan", "age":"26", "marital Status:"M' AFTER='arried", "cnic":"37405-7686248-1", "add'
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:123)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:84)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:97)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:68)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2477)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:723)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:529)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:361)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:305)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-07-25 11:52:18.203 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{} 0 1
+2017-07-25 11:52:18.204 ERROR (qtp1205044462-17) [   x:PInfo] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Cannot parse provided JSON: Expected key,value separator ':': char=M,position=49 BEFORE=' [ {"name":"Irfan", "age":"26", "marital_Status:"M' AFTER='arried", "cnic":"37405-7686248-1", "add'
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:123)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:84)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:97)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:68)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2477)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:723)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:529)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:361)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:305)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-07-25 11:53:08.694 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/managed-schema
+2017-07-25 11:53:08.893 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[a2fc0644-a291-433c-90f7-5ad523f0e7e4 (1573895367589625856)]} 0 1246
+2017-07-25 11:53:23.893 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 11:53:23.894 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@30256872
+2017-07-25 11:53:24.725 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@9137fa5[PInfo] realtime]
+2017-07-25 11:53:24.726 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 11:53:35.756 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={name=Irfan_Bukhari} status=0 QTime=3
+2017-07-25 11:53:38.835 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={name=Irfan} status=0 QTime=0
+2017-07-25 11:53:50.913 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={name=Irfan} status=0 QTime=0
+2017-07-25 11:54:12.316 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={name=Irfan} status=0 QTime=0
+2017-07-25 11:55:26.486 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=11
+2017-07-25 11:55:26.567 INFO  (qtp1205044462-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=15
+2017-07-25 11:55:26.581 INFO  (qtp1205044462-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=Default&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 11:55:26.635 INFO  (qtp1205044462-19) [   ] o.a.s.h.a.CoreAdminOperation core create command name=Default&action=CREATE&instanceDir=Default&wt=json
+2017-07-25 11:55:26.700 INFO  (qtp1205044462-19) [   x:Default] o.a.s.c.SolrResourceLoader [Default] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:55:26.787 INFO  (qtp1205044462-19) [   x:Default] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:55:26.867 INFO  (qtp1205044462-19) [   x:Default] o.a.s.s.IndexSchema [Default] Schema name=example-data-driven-schema
+2017-07-25 11:55:27.323 INFO  (qtp1205044462-19) [   x:Default] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:55:27.345 INFO  (qtp1205044462-19) [   x:Default] o.a.s.c.CoreContainer Creating SolrCore 'Default' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/Default, trusted=true
+2017-07-25 11:55:27.346 INFO  (qtp1205044462-19) [   x:Default] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:55:27.346 INFO  (qtp1205044462-19) [   x:Default] o.a.s.c.SolrCore [[Default] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/Default], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/Default/data/]
+2017-07-25 11:55:28.156 INFO  (qtp1205044462-19) [   x:Default] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:55:28.213 INFO  (qtp1205044462-19) [   x:Default] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:55:28.213 INFO  (qtp1205044462-19) [   x:Default] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:55:28.213 INFO  (qtp1205044462-19) [   x:Default] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:55:28.213 INFO  (qtp1205044462-19) [   x:Default] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:55:28.216 INFO  (qtp1205044462-19) [   x:Default] o.a.s.s.SolrIndexSearcher Opening [Searcher@723ad77b[Default] main]
+2017-07-25 11:55:28.216 INFO  (qtp1205044462-19) [   x:Default] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/Default/conf
+2017-07-25 11:55:28.217 INFO  (qtp1205044462-19) [   x:Default] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:55:28.217 INFO  (qtp1205044462-19) [   x:Default] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:55:28.217 INFO  (qtp1205044462-19) [   x:Default] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/Default/conf/elevate.xml
+2017-07-25 11:55:28.222 INFO  (qtp1205044462-19) [   x:Default] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:55:28.224 INFO  (searcherExecutor-57-thread-1-processing-x:Default) [   x:Default] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@723ad77b[Default] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:55:28.225 INFO  (searcherExecutor-57-thread-1-processing-x:Default) [   x:Default] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:55:28.225 INFO  (searcherExecutor-57-thread-1-processing-x:Default) [   x:Default] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:55:28.224 INFO  (qtp1205044462-19) [   x:Default] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573895513806209024
+2017-07-25 11:55:28.225 INFO  (searcherExecutor-57-thread-1-processing-x:Default) [   x:Default] o.a.s.c.SolrCore [Default] Registered new searcher Searcher@723ad77b[Default] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:55:28.226 INFO  (qtp1205044462-19) [   x:Default] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=Default&action=CREATE&instanceDir=Default&wt=json} status=0 QTime=1591
+2017-07-25 11:56:21.419 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=7
+2017-07-25 11:56:21.482 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=10
+2017-07-25 11:56:21.490 INFO  (qtp1205044462-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=default&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 11:56:21.519 INFO  (qtp1205044462-14) [   ] o.a.s.h.a.CoreAdminOperation core create command name=default&action=CREATE&instanceDir=default&wt=json
+2017-07-25 11:56:21.549 INFO  (qtp1205044462-14) [   x:default] o.a.s.c.SolrResourceLoader [default] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 11:56:21.599 INFO  (qtp1205044462-14) [   x:default] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 11:56:21.682 INFO  (qtp1205044462-14) [   x:default] o.a.s.s.IndexSchema [default] Schema name=example-data-driven-schema
+2017-07-25 11:56:22.086 INFO  (qtp1205044462-14) [   x:default] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 11:56:22.113 INFO  (qtp1205044462-14) [   x:default] o.a.s.c.CoreContainer Creating SolrCore 'default' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/default, trusted=true
+2017-07-25 11:56:22.113 INFO  (qtp1205044462-14) [   x:default] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 11:56:22.113 INFO  (qtp1205044462-14) [   x:default] o.a.s.c.SolrCore [[default] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/default], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/default/data/]
+2017-07-25 11:56:23.586 INFO  (qtp1205044462-14) [   x:default] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 11:56:23.641 INFO  (qtp1205044462-14) [   x:default] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 11:56:23.641 INFO  (qtp1205044462-14) [   x:default] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 11:56:23.641 INFO  (qtp1205044462-14) [   x:default] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 11:56:23.641 INFO  (qtp1205044462-14) [   x:default] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 11:56:23.648 INFO  (qtp1205044462-14) [   x:default] o.a.s.s.SolrIndexSearcher Opening [Searcher@48ed7ab6[default] main]
+2017-07-25 11:56:23.649 INFO  (qtp1205044462-14) [   x:default] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/default/conf
+2017-07-25 11:56:23.649 INFO  (qtp1205044462-14) [   x:default] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 11:56:23.649 INFO  (qtp1205044462-14) [   x:default] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 11:56:23.649 INFO  (qtp1205044462-14) [   x:default] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/default/conf/elevate.xml
+2017-07-25 11:56:23.651 INFO  (qtp1205044462-14) [   x:default] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 11:56:23.652 INFO  (searcherExecutor-62-thread-1-processing-x:default) [   x:default] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@48ed7ab6[default] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:56:23.652 INFO  (searcherExecutor-62-thread-1-processing-x:default) [   x:default] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 11:56:23.652 INFO  (searcherExecutor-62-thread-1-processing-x:default) [   x:default] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 11:56:23.652 INFO  (searcherExecutor-62-thread-1-processing-x:default) [   x:default] o.a.s.c.SolrCore [default] Registered new searcher Searcher@48ed7ab6[default] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 11:56:23.652 INFO  (qtp1205044462-14) [   x:default] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573895571926679552
+2017-07-25 11:56:23.653 INFO  (qtp1205044462-14) [   x:default] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=default&action=CREATE&instanceDir=default&wt=json} status=0 QTime=2133
+2017-07-25 11:56:27.284 INFO  (qtp1205044462-19) [   x:default] o.a.s.u.p.LogUpdateProcessorFactory [default]  webapp=/solr path=/update params={}{add=[book1 (1573895575717281792)]} 0 21
+2017-07-25 11:56:42.279 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 11:56:42.279 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@23489cd3
+2017-07-25 11:56:43.724 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.s.SolrIndexSearcher Opening [Searcher@26ac0495[default] realtime]
+2017-07-25 11:56:43.725 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 11:57:13.477 INFO  (qtp1205044462-11) [   x:default] o.a.s.c.S.Request [default]  webapp=/solr path=/get params={id=book1} status=0 QTime=7
+2017-07-25 12:01:53.259 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/managed-schema
+2017-07-25 12:01:53.292 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[235e9541-af8d-4da7-8922-b5b11644cd4c (1573895917574029312)]} 0 113
+2017-07-25 12:02:07.619 INFO  (qtp1205044462-13) [   x:default] o.a.s.u.p.LogUpdateProcessorFactory [default]  webapp=/solr path=/update params={}{add=[book1 (1573895932595929088)]} 0 6
+2017-07-25 12:02:08.292 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:02:08.292 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@30256872
+2017-07-25 12:02:09.314 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@51aea61c[PInfo] realtime]
+2017-07-25 12:02:09.314 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:02:21.325 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=book1} status=0 QTime=1
+2017-07-25 12:02:22.619 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:02:22.619 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@23489cd3
+2017-07-25 12:02:22.654 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.s.SolrIndexSearcher Opening [Searcher@72cba901[default] realtime]
+2017-07-25 12:02:22.655 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:02:28.270 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={Name=Irfan} status=0 QTime=0
+2017-07-25 12:02:45.169 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={q=Irfan} status=0 QTime=0
+2017-07-25 12:03:12.771 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={Name=Irfan} status=0 QTime=0
+2017-07-25 12:03:16.892 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={Name=Irfan} status=0 QTime=0
+2017-07-25 12:03:47.857 INFO  (qtp1205044462-13) [   x:default] o.a.s.u.p.LogUpdateProcessorFactory [default]  webapp=/solr path=/update params={}{add=[Irfan (1573896037706235904)]} 0 3
+2017-07-25 12:04:02.857 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:04:02.857 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@23489cd3
+2017-07-25 12:04:04.794 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.s.SolrIndexSearcher Opening [Searcher@18365258[default] realtime]
+2017-07-25 12:04:04.795 INFO  (commitScheduler-65-thread-1) [   x:default] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:04:05.736 INFO  (qtp1205044462-14) [   x:default] o.a.s.c.S.Request [default]  webapp=/solr path=/get params={id=Irfan} status=0 QTime=0
+2017-07-25 12:05:08.989 INFO  (qtp1205044462-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1500984308696} status=0 QTime=0
+2017-07-25 12:05:09.062 INFO  (qtp1205044462-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1500984308697} status=0 QTime=56
+2017-07-25 12:05:09.089 INFO  (qtp1205044462-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1500984308697} status=0 QTime=63
+2017-07-25 12:05:13.489 INFO  (qtp1205044462-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1500984308696} status=0 QTime=0
+2017-07-25 12:05:13.511 WARN  (qtp1205044462-11) [   x:PInfo] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_1]
+java.nio.file.NoSuchFileException: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/data/index/segments_1
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.nio.file.Files.readAttributes(Files.java:1737)
+	at java.nio.file.Files.size(Files.java:2332)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:243)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:128)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:615)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:588)
+	at org.apache.solr.handler.admin.LukeRequestHandler.handleRequestBody(LukeRequestHandler.java:138)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2477)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:723)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:529)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:361)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:305)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-25 12:05:13.512 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1500984313452} status=0 QTime=2
+2017-07-25 12:05:13.535 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/replication params={wt=json&command=details&_=1500984313453} status=0 QTime=1
+2017-07-25 12:05:13.541 INFO  (qtp1205044462-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1500984308697} status=0 QTime=41
+2017-07-25 12:05:13.562 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1500984308697&ts=1500984308697} status=503 QTime=0
+2017-07-25 12:05:13.584 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/admin/system params={wt=json&_=1500984313453} status=0 QTime=28
+2017-07-25 12:05:24.470 INFO  (qtp1205044462-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1500984308696} status=0 QTime=0
+2017-07-25 12:05:24.502 INFO  (qtp1205044462-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1500984308697} status=0 QTime=14
+2017-07-25 12:05:30.609 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=on&wt=json&_=1500984324285} hits=0 status=0 QTime=404
+2017-07-25 12:05:48.695 INFO  (qtp1205044462-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1500984308696} status=0 QTime=0
+2017-07-25 12:05:48.716 INFO  (qtp1205044462-20) [   x:PersonImages] o.a.s.c.S.Request [PersonImages]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1500984313452} status=0 QTime=8
+2017-07-25 12:05:48.723 INFO  (qtp1205044462-16) [   x:PersonImages] o.a.s.c.S.Request [PersonImages]  webapp=/solr path=/replication params={wt=json&command=details&_=1500984313453} status=0 QTime=15
+2017-07-25 12:05:48.731 INFO  (qtp1205044462-11) [   x:PersonImages] o.a.s.c.S.Request [PersonImages]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1500984308697&ts=1500984308697} status=503 QTime=0
+2017-07-25 12:05:48.749 INFO  (qtp1205044462-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1500984308697} status=0 QTime=48
+2017-07-25 12:05:48.757 INFO  (qtp1205044462-18) [   x:PersonImages] o.a.s.c.S.Request [PersonImages]  webapp=/solr path=/admin/system params={wt=json&_=1500984313453} status=0 QTime=46
+2017-07-25 12:05:52.963 INFO  (qtp1205044462-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1500984308696} status=0 QTime=0
+2017-07-25 12:05:52.982 INFO  (qtp1205044462-14) [   x:default] o.a.s.c.S.Request [default]  webapp=/solr path=/replication params={wt=json&command=details&_=1500984313453} status=0 QTime=0
+2017-07-25 12:05:52.983 INFO  (qtp1205044462-14) [   x:default] o.a.s.c.S.Request [default]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1500984308697&ts=1500984308697} status=503 QTime=0
+2017-07-25 12:05:52.981 WARN  (qtp1205044462-19) [   x:default] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_1]
+java.nio.file.NoSuchFileException: /home/obiii/Desktop/solr-6.6.0/server/solr/default/data/index/segments_1
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.nio.file.Files.readAttributes(Files.java:1737)
+	at java.nio.file.Files.size(Files.java:2332)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:243)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:128)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:615)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:588)
+	at org.apache.solr.handler.admin.LukeRequestHandler.handleRequestBody(LukeRequestHandler.java:138)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2477)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:723)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:529)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:361)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:305)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-25 12:05:52.990 INFO  (qtp1205044462-19) [   x:default] o.a.s.c.S.Request [default]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1500984313452} status=0 QTime=9
+2017-07-25 12:05:53.010 INFO  (qtp1205044462-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1500984308697} status=0 QTime=40
+2017-07-25 12:05:53.020 INFO  (qtp1205044462-14) [   x:default] o.a.s.c.S.Request [default]  webapp=/solr path=/admin/system params={wt=json&_=1500984313453} status=0 QTime=36
+2017-07-25 12:06:55.219 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=7
+2017-07-25 12:06:55.289 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=15
+2017-07-25 12:06:55.305 INFO  (qtp1205044462-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=temp&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 12:06:55.331 INFO  (qtp1205044462-17) [   ] o.a.s.h.a.CoreAdminOperation core create command name=temp&action=CREATE&instanceDir=temp&wt=json
+2017-07-25 12:06:55.344 INFO  (qtp1205044462-17) [   x:temp] o.a.s.c.SolrResourceLoader [temp] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 12:06:55.502 INFO  (qtp1205044462-17) [   x:temp] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 12:06:55.543 INFO  (qtp1205044462-17) [   x:temp] o.a.s.s.IndexSchema [temp] Schema name=example-data-driven-schema
+2017-07-25 12:06:55.967 INFO  (qtp1205044462-17) [   x:temp] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 12:06:55.991 INFO  (qtp1205044462-17) [   x:temp] o.a.s.c.CoreContainer Creating SolrCore 'temp' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/temp, trusted=true
+2017-07-25 12:06:55.991 INFO  (qtp1205044462-17) [   x:temp] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 12:06:55.991 INFO  (qtp1205044462-17) [   x:temp] o.a.s.c.SolrCore [[temp] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/temp], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/temp/data/]
+2017-07-25 12:06:56.963 INFO  (qtp1205044462-17) [   x:temp] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 12:06:57.001 INFO  (qtp1205044462-17) [   x:temp] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 12:06:57.001 INFO  (qtp1205044462-17) [   x:temp] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 12:06:57.002 INFO  (qtp1205044462-17) [   x:temp] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 12:06:57.002 INFO  (qtp1205044462-17) [   x:temp] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 12:06:57.005 INFO  (qtp1205044462-17) [   x:temp] o.a.s.s.SolrIndexSearcher Opening [Searcher@1e6760ee[temp] main]
+2017-07-25 12:06:57.005 INFO  (qtp1205044462-17) [   x:temp] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/temp/conf
+2017-07-25 12:06:57.007 INFO  (qtp1205044462-17) [   x:temp] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 12:06:57.007 INFO  (qtp1205044462-17) [   x:temp] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 12:06:57.008 INFO  (qtp1205044462-17) [   x:temp] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/temp/conf/elevate.xml
+2017-07-25 12:06:57.011 INFO  (qtp1205044462-17) [   x:temp] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 12:06:57.012 INFO  (searcherExecutor-67-thread-1-processing-x:temp) [   x:temp] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1e6760ee[temp] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 12:06:57.012 INFO  (searcherExecutor-67-thread-1-processing-x:temp) [   x:temp] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 12:06:57.012 INFO  (searcherExecutor-67-thread-1-processing-x:temp) [   x:temp] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 12:06:57.013 INFO  (searcherExecutor-67-thread-1-processing-x:temp) [   x:temp] o.a.s.c.SolrCore [temp] Registered new searcher Searcher@1e6760ee[temp] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 12:06:57.014 INFO  (qtp1205044462-17) [   x:temp] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573896236054872064
+2017-07-25 12:06:57.015 INFO  (qtp1205044462-17) [   x:temp] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=temp&action=CREATE&instanceDir=temp&wt=json} status=0 QTime=1684
+2017-07-25 12:07:44.899 INFO  (qtp1205044462-19) [   x:temp] o.a.s.u.p.LogUpdateProcessorFactory [temp]  webapp=/solr path=/update params={}{add=[irfan (1573896286253350912)]} 0 12
+2017-07-25 12:07:59.891 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:07:59.891 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@3fecf61e
+2017-07-25 12:07:59.932 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.s.SolrIndexSearcher Opening [Searcher@f300e40[temp] realtime]
+2017-07-25 12:07:59.933 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:08:11.129 INFO  (qtp1205044462-11) [   x:temp] o.a.s.u.p.LogUpdateProcessorFactory [temp]  webapp=/solr path=/update params={}{add=[irfan (1573896313763790848)]} 0 7
+2017-07-25 12:08:26.128 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:08:26.129 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@3fecf61e
+2017-07-25 12:08:26.159 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.s.SolrIndexSearcher Opening [Searcher@e091eb1[temp] realtime]
+2017-07-25 12:08:26.162 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:08:29.052 INFO  (qtp1205044462-14) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/get params={id=book1} status=0 QTime=0
+2017-07-25 12:08:36.235 INFO  (qtp1205044462-20) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/get params={id=irfan} status=0 QTime=0
+2017-07-25 12:11:45.885 INFO  (qtp1205044462-16) [   x:temp] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/temp/conf/managed-schema
+2017-07-25 12:11:45.897 INFO  (qtp1205044462-16) [   x:temp] o.a.s.u.p.LogUpdateProcessorFactory [temp]  webapp=/solr path=/update params={}{add=[Irfan_Bukhari (1573896538963312640)]} 0 72
+2017-07-25 12:12:00.892 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:12:00.892 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@3fecf61e
+2017-07-25 12:12:00.932 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.s.SolrIndexSearcher Opening [Searcher@8fff3c2[temp] realtime]
+2017-07-25 12:12:00.933 INFO  (commitScheduler-70-thread-1) [   x:temp] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:12:15.541 INFO  (qtp1205044462-17) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=0
+2017-07-25 12:12:34.277 INFO  (qtp1205044462-16) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=0
+2017-07-25 12:12:50.507 INFO  (qtp1205044462-13) [   x:default] o.a.s.c.S.Request [default]  webapp=/solr path=/get params={id=book1} status=0 QTime=0
+2017-07-25 12:12:55.556 INFO  (qtp1205044462-17) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=0
+2017-07-25 12:13:13.009 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/managed-schema
+2017-07-25 12:13:13.023 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[Irfan_Bukhari (1573896630323642368)]} 0 64
+2017-07-25 12:13:24.710 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=1
+2017-07-25 12:13:28.020 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:13:28.020 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@30256872
+2017-07-25 12:13:28.072 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@71362ae3[PInfo] realtime]
+2017-07-25 12:13:28.074 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:13:34.408 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=0
+2017-07-25 12:13:44.414 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=0
+2017-07-25 12:13:49.442 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=0
+2017-07-25 12:15:02.341 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/query params={id=Irfan_Bukhari} hits=0 status=0 QTime=8
+2017-07-25 12:15:12.749 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/query params={id=Irfan_Bukhari} hits=0 status=0 QTime=1
+2017-07-25 12:15:57.079 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/query params={id=id:Irfan_Bukhari} hits=0 status=0 QTime=0
+2017-07-25 12:16:13.728 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/query params={q=id:Irfan_Bukhari} hits=0 status=0 QTime=0
+2017-07-25 12:16:24.008 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=0
+2017-07-25 12:17:29.789 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/query params={q=id:Irfan_Bukhari} hits=0 status=0 QTime=0
+2017-07-25 12:18:21.605 INFO  (qtp1205044462-19) [   x:default] o.a.s.c.S.Request [default]  webapp=/solr path=/query params={q=title_t:black} hits=0 status=0 QTime=4
+2017-07-25 12:18:55.966 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/query params={q=age:26} hits=0 status=0 QTime=0
+2017-07-25 12:19:12.269 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=0
+2017-07-25 12:19:22.105 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=1
+2017-07-25 12:19:31.552 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=Irfan_Bukhari} status=0 QTime=0
+2017-07-25 12:20:43.427 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[Obaid (1573897102607515648)]} 0 7
+2017-07-25 12:20:52.563 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=Obaid} status=0 QTime=1
+2017-07-25 12:20:58.427 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:20:58.427 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@30256872
+2017-07-25 12:20:58.896 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@1c9ac492[PInfo] realtime]
+2017-07-25 12:20:58.899 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:22:01.912 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/query params={q=id:Obaid} hits=0 status=0 QTime=2
+2017-07-25 12:23:04.523 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[Sohaib Roomi (1573897250557394944)]} 0 5
+2017-07-25 12:23:12.347 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=obaid} status=0 QTime=0
+2017-07-25 12:23:16.843 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=roomi} status=0 QTime=1
+2017-07-25 12:23:19.523 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:23:19.523 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@30256872
+2017-07-25 12:23:20.454 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/get params={id=Roomi} status=0 QTime=0
+2017-07-25 12:23:21.326 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@7534854a[PInfo] realtime]
+2017-07-25 12:23:21.327 INFO  (commitScheduler-55-thread-1) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:24:24.287 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=obaid} hits=0 status=0 QTime=0
+2017-07-25 12:24:32.897 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=obaid} hits=0 status=0 QTime=0
+2017-07-25 12:24:36.643 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=obaid} hits=0 status=0 QTime=0
+2017-07-25 12:25:05.962 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Obaid} hits=0 status=0 QTime=0
+2017-07-25 12:25:17.490 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Obaid} hits=0 status=0 QTime=0
+2017-07-25 12:27:21.683 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /update/extract,class = solr.extraction.ExtractingRequestHandler,attributes = {startup=lazy, name=/update/extract, class=solr.extraction.ExtractingRequestHandler},args = {defaults={lowernames=true,fmap.meta=ignored_,fmap.content=_text_,df=_text_,update.chain=add-unknown-fields-to-the-schema}}} 
+2017-07-25 12:27:22.698 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/managed-schema
+2017-07-25 12:27:22.734 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update/extract params={resource.name=/home/obiii/Desktop/Docs/sample.txt&literal.id=/home/obiii/Desktop/Docs/sample.txt}{add=[/home/obiii/Desktop/Docs/sample.txt (1573897521312301056)]} 0 1051
+2017-07-25 12:27:22.756 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:27:22.756 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@30256872
+2017-07-25 12:27:22.825 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@3e68c0af[PInfo] main]
+2017-07-25 12:27:22.840 INFO  (searcherExecutor-52-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3e68c0af[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C1) Uninverting(_1(6.6.0):C1) Uninverting(_2(6.6.0):C1) Uninverting(_3(6.6.0):C1) Uninverting(_4(6.6.0):C1) Uninverting(_5(6.6.0):C1)))}
+2017-07-25 12:27:22.840 INFO  (searcherExecutor-52-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 12:27:22.842 INFO  (searcherExecutor-52-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@3e68c0af[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C1) Uninverting(_1(6.6.0):C1) Uninverting(_2(6.6.0):C1) Uninverting(_3(6.6.0):C1) Uninverting(_4(6.6.0):C1) Uninverting(_5(6.6.0):C1)))}
+2017-07-25 12:27:22.842 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:27:22.842 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={commit=true}{commit=} 0 86
+2017-07-25 12:27:37.077 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan} hits=2 status=0 QTime=10
+2017-07-25 12:27:57.755 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan} hits=2 status=0 QTime=0
+2017-07-25 12:28:04.940 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan} hits=2 status=0 QTime=0
+2017-07-25 12:28:33.632 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json&facet=true} hits=2 status=0 QTime=1795
+2017-07-25 12:29:36.063 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=13
+2017-07-25 12:29:36.111 ERROR (qtp1205044462-15) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Cannot unload non-existent core [PersonalDocs]
+	at org.apache.solr.core.CoreContainer.unload(CoreContainer.java:1212)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$1(CoreAdminOperation.java:101)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:384)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:388)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:174)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:748)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:729)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:510)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:361)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:305)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-07-25 12:29:36.112 INFO  (qtp1205044462-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=PersonalDocs&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=400 QTime=0
+2017-07-25 12:29:43.136 INFO  (qtp1205044462-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=6
+2017-07-25 12:29:43.183 ERROR (qtp1205044462-11) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Cannot unload non-existent core [PersonalDoc]
+	at org.apache.solr.core.CoreContainer.unload(CoreContainer.java:1212)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$1(CoreAdminOperation.java:101)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:384)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:388)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:174)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:748)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:729)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:510)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:361)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:305)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-07-25 12:29:43.183 INFO  (qtp1205044462-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=PersonalDoc&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=400 QTime=0
+2017-07-25 12:29:49.973 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=12
+2017-07-25 12:29:50.029 INFO  (qtp1205044462-17) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PInfo
+2017-07-25 12:29:50.029 INFO  (qtp1205044462-17) [   ] o.a.s.c.SolrCore [PInfo]  CLOSING SolrCore org.apache.solr.core.SolrCore@399d39f6
+2017-07-25 12:29:50.041 INFO  (qtp1205044462-17) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PInfo
+2017-07-25 12:29:51.609 INFO  (qtp1205044462-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=PInfo&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=1580
+2017-07-25 12:30:04.902 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=8
+2017-07-25 12:30:04.960 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-07-25 12:30:04.969 INFO  (qtp1205044462-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=PInfo&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 12:30:05.011 INFO  (qtp1205044462-15) [   ] o.a.s.h.a.CoreAdminOperation core create command name=PInfo&action=CREATE&instanceDir=PInfo&wt=json
+2017-07-25 12:30:05.061 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.SolrResourceLoader [PInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 12:30:05.123 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 12:30:05.171 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.s.IndexSchema [PInfo] Schema name=example-data-driven-schema
+2017-07-25 12:30:05.524 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 12:30:05.552 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.CoreContainer Creating SolrCore 'PInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo, trusted=true
+2017-07-25 12:30:05.557 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 12:30:05.557 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.SolrCore [[PInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/data/]
+2017-07-25 12:30:06.472 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 12:30:06.529 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 12:30:06.529 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 12:30:06.530 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 12:30:06.530 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 12:30:06.536 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@7db9a07e[PInfo] main]
+2017-07-25 12:30:06.537 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf
+2017-07-25 12:30:06.537 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 12:30:06.537 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 12:30:06.537 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/elevate.xml
+2017-07-25 12:30:06.539 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 12:30:06.545 INFO  (searcherExecutor-73-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7db9a07e[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 12:30:06.545 INFO  (searcherExecutor-73-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 12:30:06.545 INFO  (searcherExecutor-73-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 12:30:06.545 INFO  (searcherExecutor-73-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@7db9a07e[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 12:30:06.546 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573897693084778496
+2017-07-25 12:30:06.548 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=PInfo&action=CREATE&instanceDir=PInfo&wt=json} status=0 QTime=1537
+2017-07-25 12:30:31.094 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /update/extract,class = solr.extraction.ExtractingRequestHandler,attributes = {startup=lazy, name=/update/extract, class=solr.extraction.ExtractingRequestHandler},args = {defaults={lowernames=true,fmap.meta=ignored_,fmap.content=_text_,df=_text_,update.chain=add-unknown-fields-to-the-schema}}} 
+2017-07-25 12:30:31.924 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/managed-schema
+2017-07-25 12:30:32.892 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update/extract params={resource.name=/home/obiii/Desktop/Docs/sample.txt&literal.id=/home/obiii/Desktop/Docs/sample.txt}{add=[/home/obiii/Desktop/Docs/sample.txt (1573897720689590272)]} 0 1799
+2017-07-25 12:30:32.897 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:30:32.906 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7ce38921
+2017-07-25 12:30:33.100 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@33103426[PInfo] main]
+2017-07-25 12:30:33.104 INFO  (searcherExecutor-73-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@33103426[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C1)))}
+2017-07-25 12:30:33.105 INFO  (searcherExecutor-73-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 12:30:33.105 INFO  (searcherExecutor-73-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@33103426[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C1)))}
+2017-07-25 12:30:33.105 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:30:33.105 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={commit=true}{commit=} 0 208
+2017-07-25 12:30:46.429 INFO  (qtp1205044462-19) [   x:Intelpol] o.a.s.c.S.Request [Intelpol]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json&facet=true} hits=1 status=0 QTime=5
+2017-07-25 12:31:19.938 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json&facet=true} hits=0 status=0 QTime=0
+2017-07-25 12:31:27.835 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json&facet=true} hits=0 status=0 QTime=2
+2017-07-25 12:31:50.410 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Engineer&indent=true&wt=json&facet=true} hits=1 status=0 QTime=1
+2017-07-25 12:32:03.073 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json&facet=true} hits=0 status=0 QTime=0
+2017-07-25 12:32:12.092 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=26&indent=true&wt=json&facet=true} hits=1 status=0 QTime=0
+2017-07-25 12:32:22.650 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=RWP&indent=true&wt=json&facet=true} hits=1 status=0 QTime=0
+2017-07-25 12:32:30.223 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=irfan&indent=true&wt=json&facet=true} hits=0 status=0 QTime=0
+2017-07-25 12:32:41.272 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan,&indent=true&wt=json&facet=true} hits=0 status=0 QTime=0
+2017-07-25 12:32:48.199 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json&facet=true} hits=0 status=0 QTime=0
+2017-07-25 12:32:53.573 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json&facet=true} hits=0 status=0 QTime=0
+2017-07-25 12:33:35.053 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=RWP&indent=true&wt=json&facet=true} hits=1 status=0 QTime=0
+2017-07-25 12:33:47.808 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json&facet=true} hits=0 status=0 QTime=0
+2017-07-25 12:34:16.432 INFO  (qtp1205044462-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-07-25 12:34:16.481 INFO  (qtp1205044462-20) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PInfo
+2017-07-25 12:34:16.481 INFO  (qtp1205044462-20) [   ] o.a.s.c.SolrCore [PInfo]  CLOSING SolrCore org.apache.solr.core.SolrCore@7dcb51cb
+2017-07-25 12:34:16.501 INFO  (qtp1205044462-20) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PInfo
+2017-07-25 12:34:16.511 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=PInfo&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=30
+2017-07-25 12:34:49.793 INFO  (qtp1205044462-11) [   x:PersonalInfo] o.a.s.c.S.Request [PersonalInfo]  webapp=/solr path=/select params={q=irfan&indent=true&wt=json&facet=true} hits=1 status=0 QTime=3
+2017-07-25 12:35:06.888 INFO  (qtp1205044462-16) [   x:PersonalInfo] o.a.s.c.S.Request [PersonalInfo]  webapp=/solr path=/select params={q=irfan&indent=true&fl=name&wt=json&facet=true} hits=1 status=0 QTime=1
+2017-07-25 12:35:15.229 INFO  (qtp1205044462-17) [   x:PersonalInfo] o.a.s.c.S.Request [PersonalInfo]  webapp=/solr path=/select params={q=irfan&indent=true&wt=json&facet=true} hits=1 status=0 QTime=0
+2017-07-25 12:35:25.452 INFO  (qtp1205044462-13) [   x:PersonalInfo] o.a.s.c.S.Request [PersonalInfo]  webapp=/solr path=/select params={q=irfan&indent=true&wt=json&facet=true} hits=1 status=0 QTime=0
+2017-07-25 12:37:37.573 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-07-25 12:37:37.635 INFO  (qtp1205044462-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=8
+2017-07-25 12:37:37.651 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=PInfo&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 12:37:37.691 INFO  (qtp1205044462-20) [   ] o.a.s.h.a.CoreAdminOperation core create command name=PInfo&action=CREATE&instanceDir=PInfo&wt=json
+2017-07-25 12:37:37.729 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.SolrResourceLoader [PInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 12:37:37.821 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 12:37:37.897 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.IndexSchema [PInfo] Schema name=example-data-driven-schema
+2017-07-25 12:37:38.278 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 12:37:38.301 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.CoreContainer Creating SolrCore 'PInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo, trusted=true
+2017-07-25 12:37:38.301 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 12:37:38.301 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.SolrCore [[PInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/data/]
+2017-07-25 12:37:40.229 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 12:37:40.286 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 12:37:40.286 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 12:37:40.286 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 12:37:40.286 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 12:37:40.288 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@290462df[PInfo] main]
+2017-07-25 12:37:40.289 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf
+2017-07-25 12:37:40.289 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 12:37:40.289 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 12:37:40.289 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/elevate.xml
+2017-07-25 12:37:40.300 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 12:37:40.301 INFO  (searcherExecutor-78-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@290462df[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 12:37:40.301 INFO  (searcherExecutor-78-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 12:37:40.301 INFO  (searcherExecutor-78-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 12:37:40.301 INFO  (searcherExecutor-78-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@290462df[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 12:37:40.301 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573898168881381376
+2017-07-25 12:37:40.302 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=PInfo&action=CREATE&instanceDir=PInfo&wt=json} status=0 QTime=2611
+2017-07-25 12:37:55.137 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/managed-schema
+2017-07-25 12:37:55.154 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[9885A004 (1573898184441200640)]} 0 1747
+2017-07-25 12:37:55.158 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 12:37:55.159 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@13491308
+2017-07-25 12:37:55.229 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@77c20db0[PInfo] main]
+2017-07-25 12:37:55.229 INFO  (searcherExecutor-78-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@77c20db0[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C1)))}
+2017-07-25 12:37:55.229 INFO  (searcherExecutor-78-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 12:37:55.229 INFO  (searcherExecutor-78-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@77c20db0[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C1)))}
+2017-07-25 12:37:55.230 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 12:37:55.230 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={commit=true}{commit=} 0 71
+2017-07-25 12:38:33.581 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=sd500} hits=1 status=0 QTime=1
+2017-07-25 12:38:39.871 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=sd500&wt=json} hits=1 status=0 QTime=1
+2017-07-25 12:39:13.352 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=sd500&wt=json} hits=1 status=0 QTime=0
+2017-07-25 12:39:28.420 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=sd500&wt=json} hits=1 status=0 QTime=0
+2017-07-25 12:39:35.894 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=a&wt=json} hits=0 status=0 QTime=0
+2017-07-25 12:39:52.320 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=sd500&wt=json} hits=1 status=0 QTime=0
+2017-07-25 12:40:52.970 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=inStock:false&fl=id,name&wt=json} hits=0 status=0 QTime=0
+2017-07-25 12:41:23.149 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=inStock:false&fl=id,name&wt=json} hits=0 status=0 QTime=0
+2017-07-25 12:41:37.401 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=inStock:false&fl=id,name&wt=json} hits=0 status=0 QTime=1
+2017-07-25 12:41:43.224 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=inStock:false&indent=true&fl=id,name&wt=json} hits=0 status=0 QTime=0
+2017-07-25 12:42:07.316 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=false&indent=true&fl=id,name&wt=json} hits=0 status=0 QTime=0
+2017-07-25 12:42:28.381 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=false&indent=true&wt=json} hits=0 status=0 QTime=0
+2017-07-25 12:43:04.044 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=sd500&wt=json} hits=1 status=0 QTime=0
+2017-07-25 12:43:10.451 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=sd500&indent=true&wt=json} hits=1 status=0 QTime=0
+2017-07-25 12:43:23.110 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=true&indent=true&wt=json} hits=1 status=0 QTime=2
+2017-07-25 13:09:09.122 INFO  (qtp1205044462-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=8
+2017-07-25 13:09:09.178 INFO  (qtp1205044462-17) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PdfDocs
+2017-07-25 13:09:09.178 INFO  (qtp1205044462-17) [   ] o.a.s.c.SolrCore [PdfDocs]  CLOSING SolrCore org.apache.solr.core.SolrCore@75d5a9cc
+2017-07-25 13:09:09.184 INFO  (qtp1205044462-17) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PdfDocs
+2017-07-25 13:09:09.220 INFO  (qtp1205044462-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=PdfDocs&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=41
+2017-07-25 13:09:18.515 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=6
+2017-07-25 13:09:18.574 INFO  (qtp1205044462-15) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.WordDocs
+2017-07-25 13:09:18.574 INFO  (qtp1205044462-15) [   ] o.a.s.c.SolrCore [WordDocs]  CLOSING SolrCore org.apache.solr.core.SolrCore@36181570
+2017-07-25 13:09:18.577 INFO  (qtp1205044462-15) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.WordDocs
+2017-07-25 13:09:18.593 INFO  (qtp1205044462-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=WordDocs&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=20
+2017-07-25 13:09:33.317 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=6
+2017-07-25 13:09:33.366 INFO  (qtp1205044462-20) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.ExcelDocs
+2017-07-25 13:09:33.366 INFO  (qtp1205044462-20) [   ] o.a.s.c.SolrCore [ExcelDocs]  CLOSING SolrCore org.apache.solr.core.SolrCore@7fc28e7
+2017-07-25 13:09:33.388 INFO  (qtp1205044462-20) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.ExcelDocs
+2017-07-25 13:09:33.397 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=ExcelDocs&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=31
+2017-07-25 13:09:48.895 INFO  (qtp1205044462-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=6
+2017-07-25 13:09:48.952 ERROR (qtp1205044462-19) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Cannot unload non-existent core [ImagesDocs]
+	at org.apache.solr.core.CoreContainer.unload(CoreContainer.java:1212)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$1(CoreAdminOperation.java:101)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:384)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:388)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:174)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:748)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:729)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:510)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:361)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:305)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-07-25 13:09:48.952 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=ImagesDocs&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=400 QTime=0
+2017-07-25 13:09:55.774 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=7
+2017-07-25 13:09:55.845 INFO  (qtp1205044462-16) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.ImageDocs
+2017-07-25 13:09:55.848 INFO  (qtp1205044462-16) [   ] o.a.s.c.SolrCore [ImageDocs]  CLOSING SolrCore org.apache.solr.core.SolrCore@22ba79e2
+2017-07-25 13:09:55.877 INFO  (qtp1205044462-16) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.ImageDocs
+2017-07-25 13:09:55.889 INFO  (qtp1205044462-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=ImageDocs&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=44
+2017-07-25 13:10:09.097 INFO  (qtp1205044462-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=11
+2017-07-25 13:10:09.161 INFO  (qtp1205044462-20) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PersonImages
+2017-07-25 13:10:09.161 INFO  (qtp1205044462-20) [   ] o.a.s.c.SolrCore [PersonImages]  CLOSING SolrCore org.apache.solr.core.SolrCore@39730ba4
+2017-07-25 13:10:09.176 INFO  (qtp1205044462-20) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PersonImages
+2017-07-25 13:10:09.179 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=PersonImages&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=18
+2017-07-25 13:10:17.394 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=15
+2017-07-25 13:10:17.493 INFO  (qtp1205044462-14) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PersonalInfo
+2017-07-25 13:10:17.493 INFO  (qtp1205044462-14) [   ] o.a.s.c.SolrCore [PersonalInfo]  CLOSING SolrCore org.apache.solr.core.SolrCore@6ee0f51d
+2017-07-25 13:10:17.501 INFO  (qtp1205044462-14) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PersonalInfo
+2017-07-25 13:10:17.502 INFO  (qtp1205044462-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=PersonalInfo&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=13
+2017-07-25 13:10:25.776 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-07-25 13:10:25.826 INFO  (qtp1205044462-18) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.CrimeInfo
+2017-07-25 13:10:25.826 INFO  (qtp1205044462-18) [   ] o.a.s.c.SolrCore [CrimeInfo]  CLOSING SolrCore org.apache.solr.core.SolrCore@68ec3537
+2017-07-25 13:10:25.829 INFO  (qtp1205044462-18) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.CrimeInfo
+2017-07-25 13:10:25.849 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=CrimeInfo&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=23
+2017-07-25 13:10:35.733 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-07-25 13:10:35.823 ERROR (qtp1205044462-19) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Cannot unload non-existent core [pInfo]
+	at org.apache.solr.core.CoreContainer.unload(CoreContainer.java:1212)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$1(CoreAdminOperation.java:101)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:384)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:388)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:174)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdmin(HttpSolrCall.java:748)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:729)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:510)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:361)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:305)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-07-25 13:10:35.823 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=pInfo&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=400 QTime=0
+2017-07-25 13:10:40.919 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=13
+2017-07-25 13:10:40.976 INFO  (qtp1205044462-13) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PInfo
+2017-07-25 13:10:40.976 INFO  (qtp1205044462-13) [   ] o.a.s.c.SolrCore [PInfo]  CLOSING SolrCore org.apache.solr.core.SolrCore@53d87cad
+2017-07-25 13:10:40.980 INFO  (qtp1205044462-13) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PInfo
+2017-07-25 13:10:40.985 INFO  (qtp1205044462-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=PInfo&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=9
+2017-07-25 13:10:45.774 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-07-25 13:10:45.827 INFO  (qtp1205044462-17) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.temp
+2017-07-25 13:10:45.828 INFO  (qtp1205044462-17) [   ] o.a.s.c.SolrCore [temp]  CLOSING SolrCore org.apache.solr.core.SolrCore@3fdd5b7b
+2017-07-25 13:10:45.834 INFO  (qtp1205044462-17) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.temp
+2017-07-25 13:10:45.842 INFO  (qtp1205044462-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=temp&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=14
+2017-07-25 13:11:00.531 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=15
+2017-07-25 13:11:00.621 INFO  (qtp1205044462-19) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.Intelpol
+2017-07-25 13:11:00.624 INFO  (qtp1205044462-19) [   ] o.a.s.c.SolrCore [Intelpol]  CLOSING SolrCore org.apache.solr.core.SolrCore@2311b310
+2017-07-25 13:11:00.638 INFO  (qtp1205044462-19) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.Intelpol
+2017-07-25 13:11:00.640 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=Intelpol&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=19
+2017-07-25 13:11:07.622 INFO  (qtp1205044462-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=7
+2017-07-25 13:11:07.676 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=6
+2017-07-25 13:11:07.683 INFO  (qtp1205044462-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=Intelpol&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 13:11:07.706 INFO  (qtp1205044462-17) [   ] o.a.s.h.a.CoreAdminOperation core create command name=Intelpol&action=CREATE&instanceDir=Intelpol&wt=json
+2017-07-25 13:11:07.741 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.c.SolrResourceLoader [Intelpol] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 13:11:07.905 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 13:11:07.950 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.s.IndexSchema [Intelpol] Schema name=example-data-driven-schema
+2017-07-25 13:11:08.439 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 13:11:08.468 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.c.CoreContainer Creating SolrCore 'Intelpol' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/Intelpol, trusted=true
+2017-07-25 13:11:08.473 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 13:11:08.473 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.c.SolrCore [[Intelpol] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/Intelpol], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/Intelpol/data/]
+2017-07-25 13:11:08.497 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 13:11:08.577 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 13:11:08.577 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 13:11:08.577 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 13:11:08.577 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 13:11:08.579 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.s.SolrIndexSearcher Opening [Searcher@467fc68f[Intelpol] main]
+2017-07-25 13:11:08.579 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/Intelpol/conf
+2017-07-25 13:11:08.579 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 13:11:08.580 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 13:11:08.580 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/Intelpol/conf/elevate.xml
+2017-07-25 13:11:08.589 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 13:11:08.596 INFO  (searcherExecutor-83-thread-1-processing-x:Intelpol) [   x:Intelpol] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@467fc68f[Intelpol] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:11:08.596 INFO  (searcherExecutor-83-thread-1-processing-x:Intelpol) [   x:Intelpol] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:11:08.596 INFO  (searcherExecutor-83-thread-1-processing-x:Intelpol) [   x:Intelpol] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 13:11:08.596 INFO  (searcherExecutor-83-thread-1-processing-x:Intelpol) [   x:Intelpol] o.a.s.c.SolrCore [Intelpol] Registered new searcher Searcher@467fc68f[Intelpol] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:11:08.596 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573900274731319296
+2017-07-25 13:11:08.597 INFO  (qtp1205044462-17) [   x:Intelpol] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=Intelpol&action=CREATE&instanceDir=Intelpol&wt=json} status=0 QTime=890
+2017-07-25 13:11:33.854 INFO  (qtp1205044462-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-07-25 13:11:33.933 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=16
+2017-07-25 13:11:33.942 INFO  (qtp1205044462-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=PInfo&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 13:11:33.974 INFO  (qtp1205044462-17) [   ] o.a.s.h.a.CoreAdminOperation core create command name=PInfo&action=CREATE&instanceDir=PInfo&wt=json
+2017-07-25 13:11:34.004 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.SolrResourceLoader [PInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 13:11:34.082 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 13:11:34.172 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.s.IndexSchema [PInfo] Schema name=example-data-driven-schema
+2017-07-25 13:11:34.540 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 13:11:34.563 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.CoreContainer Creating SolrCore 'PInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo, trusted=true
+2017-07-25 13:11:34.564 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 13:11:34.564 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.SolrCore [[PInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/data/]
+2017-07-25 13:11:34.578 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 13:11:34.612 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 13:11:34.612 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 13:11:34.613 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 13:11:34.613 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 13:11:34.617 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@732f2e85[PInfo] main]
+2017-07-25 13:11:34.617 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf
+2017-07-25 13:11:34.617 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 13:11:34.617 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 13:11:34.620 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/elevate.xml
+2017-07-25 13:11:34.622 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 13:11:34.624 INFO  (searcherExecutor-88-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@732f2e85[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:11:34.624 INFO  (searcherExecutor-88-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:11:34.624 INFO  (searcherExecutor-88-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 13:11:34.624 INFO  (searcherExecutor-88-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@732f2e85[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:11:34.624 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573900302023655424
+2017-07-25 13:11:34.628 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=PInfo&action=CREATE&instanceDir=PInfo&wt=json} status=0 QTime=653
+2017-07-25 13:11:38.305 INFO  (qtp1205044462-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=4
+2017-07-25 13:11:38.378 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=13
+2017-07-25 13:11:38.386 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=CInfo&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 13:11:38.414 INFO  (qtp1205044462-20) [   ] o.a.s.h.a.CoreAdminOperation core create command name=CInfo&action=CREATE&instanceDir=CInfo&wt=json
+2017-07-25 13:11:38.446 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.c.SolrResourceLoader [CInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 13:11:38.574 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 13:11:38.617 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.s.IndexSchema [CInfo] Schema name=example-data-driven-schema
+2017-07-25 13:11:38.972 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 13:11:38.997 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.c.CoreContainer Creating SolrCore 'CInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo, trusted=true
+2017-07-25 13:11:38.997 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 13:11:38.998 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.c.SolrCore [[CInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/CInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/data/]
+2017-07-25 13:11:39.020 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 13:11:39.058 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 13:11:39.058 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 13:11:39.058 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 13:11:39.058 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 13:11:39.060 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@5104509e[CInfo] main]
+2017-07-25 13:11:39.060 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/conf
+2017-07-25 13:11:39.060 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 13:11:39.060 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 13:11:39.061 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/conf/elevate.xml
+2017-07-25 13:11:39.069 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 13:11:39.070 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5104509e[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:11:39.070 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:11:39.070 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 13:11:39.070 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.SolrCore [CInfo] Registered new searcher Searcher@5104509e[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:11:39.070 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573900306685624320
+2017-07-25 13:11:39.071 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=CInfo&action=CREATE&instanceDir=CInfo&wt=json} status=0 QTime=656
+2017-07-25 13:12:02.001 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/managed-schema
+2017-07-25 13:12:02.016 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[21e55c93-348e-49a8-8ebd-61a54e3e626f (1573900330735763456)]} 0 33
+2017-07-25 13:12:02.085 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[8d17f2c9-ea7b-42c8-bf4a-83221ec585a2 (1573900330817552384)]} 0 1
+2017-07-25 13:12:02.098 INFO  (qtp1205044462-16) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[706a9f3d-186f-4c36-9ad7-f1d4bf0d754d (1573900330831183872)]} 0 5
+2017-07-25 13:12:02.122 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 13:12:02.122 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2c68660d
+2017-07-25 13:12:02.210 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@553bd3f0[PInfo] main]
+2017-07-25 13:12:02.211 INFO  (searcherExecutor-88-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@553bd3f0[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3)))}
+2017-07-25 13:12:02.211 INFO  (searcherExecutor-88-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:12:02.211 INFO  (searcherExecutor-88-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@553bd3f0[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3)))}
+2017-07-25 13:12:02.211 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 13:12:02.211 INFO  (qtp1205044462-19) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={commit=true}{commit=} 0 89
+2017-07-25 13:12:28.511 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json&facet=true} hits=1 status=0 QTime=0
+2017-07-25 13:13:00.789 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&fl=name&wt=json&facet=true} hits=1 status=0 QTime=3
+2017-07-25 13:18:01.597 INFO  (qtp1205044462-13) [   x:CInfo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/conf/managed-schema
+2017-07-25 13:18:03.357 INFO  (qtp1205044462-13) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900709621923840)]} 0 1819
+2017-07-25 13:18:03.366 INFO  (qtp1205044462-17) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900709648138240)]} 0 5
+2017-07-25 13:18:03.374 INFO  (qtp1205044462-15) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900709656526848)]} 0 1
+2017-07-25 13:18:03.381 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 13:18:03.381 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@119a2bcb
+2017-07-25 13:18:03.446 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@68eb0d34[CInfo] main]
+2017-07-25 13:18:03.447 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@68eb0d34[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3/2:delGen=1)))}
+2017-07-25 13:18:03.447 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:18:03.447 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.SolrCore [CInfo] Registered new searcher Searcher@68eb0d34[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3/2:delGen=1)))}
+2017-07-25 13:18:03.447 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 13:18:03.447 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={commit=true}{commit=} 0 66
+2017-07-25 13:18:12.597 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&fl=name&wt=json&facet=true} hits=1 status=0 QTime=0
+2017-07-25 13:18:22.294 INFO  (qtp1205044462-15) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&fl=name&wt=json&facet=true} hits=0 status=0 QTime=1
+2017-07-25 13:18:57.360 INFO  (qtp1205044462-18) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&fl=name&wt=json&facet=true} hits=0 status=0 QTime=1
+2017-07-25 13:19:13.645 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&fl=name&wt=json&facet=true} hits=0 status=0 QTime=0
+2017-07-25 13:19:17.478 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&fl=name&wt=json&facet=true} hits=1 status=0 QTime=0
+2017-07-25 13:19:29.790 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&fl=name&wt=json&facet=true} hits=0 status=0 QTime=0
+2017-07-25 13:19:40.063 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json&facet=true} hits=0 status=0 QTime=0
+2017-07-25 13:19:46.571 INFO  (qtp1205044462-13) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json} hits=0 status=0 QTime=0
+2017-07-25 13:19:52.871 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json} hits=1 status=0 QTime=0
+2017-07-25 13:20:01.455 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=Irfan&indent=true&wt=json} hits=0 status=0 QTime=0
+2017-07-25 13:20:30.029 INFO  (qtp1205044462-17) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=Shahid&indent=true&wt=json} hits=0 status=0 QTime=0
+2017-07-25 13:20:36.115 INFO  (qtp1205044462-20) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Shahid&indent=true&wt=json} hits=1 status=0 QTime=0
+2017-07-25 13:20:50.689 INFO  (qtp1205044462-13) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900885095874560)]} 0 5
+2017-07-25 13:20:50.697 INFO  (qtp1205044462-16) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900885105311744)]} 0 2
+2017-07-25 13:20:50.703 INFO  (qtp1205044462-18) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900885113700352)]} 0 2
+2017-07-25 13:20:50.715 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 13:20:50.716 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@119a2bcb
+2017-07-25 13:20:51.335 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@5647c578[CInfo] main]
+2017-07-25 13:20:51.335 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5647c578[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(6.6.0):C3/2:delGen=1)))}
+2017-07-25 13:20:51.335 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:20:51.336 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.SolrCore [CInfo] Registered new searcher Searcher@5647c578[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(6.6.0):C3/2:delGen=1)))}
+2017-07-25 13:20:51.336 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 13:20:51.336 INFO  (qtp1205044462-20) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={commit=true}{commit=} 0 621
+2017-07-25 13:20:58.362 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Shahid&indent=true&wt=json} hits=1 status=0 QTime=0
+2017-07-25 13:21:19.544 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900915352535040)]} 0 5
+2017-07-25 13:21:19.575 INFO  (qtp1205044462-16) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900915387138048)]} 0 25
+2017-07-25 13:21:19.583 INFO  (qtp1205044462-18) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900915396575232)]} 0 1
+2017-07-25 13:21:19.590 INFO  (qtp1205044462-18) [   x:CInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 13:21:19.590 INFO  (qtp1205044462-18) [   x:CInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@119a2bcb
+2017-07-25 13:21:21.230 INFO  (qtp1205044462-18) [   x:CInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@4d67af02[CInfo] main]
+2017-07-25 13:21:21.231 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4d67af02[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(6.6.0):C3/2:delGen=1)))}
+2017-07-25 13:21:21.231 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:21:21.231 INFO  (searcherExecutor-93-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.SolrCore [CInfo] Registered new searcher Searcher@4d67af02[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(6.6.0):C3/2:delGen=1)))}
+2017-07-25 13:21:21.232 INFO  (qtp1205044462-18) [   x:CInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 13:21:21.232 INFO  (qtp1205044462-18) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={commit=true}{commit=} 0 1641
+2017-07-25 13:21:24.212 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=Shahid&indent=true&wt=json} hits=1 status=0 QTime=0
+2017-07-25 13:21:30.576 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=irfan&indent=true&wt=json} hits=1 status=0 QTime=0
+2017-07-25 13:21:37.880 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=bukhari&indent=true&wt=json} hits=1 status=0 QTime=0
+2017-07-25 13:21:42.471 INFO  (qtp1205044462-15) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=bukhari&indent=true&wt=json} hits=0 status=0 QTime=0
+2017-07-25 13:21:56.327 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/managed-schema
+2017-07-25 13:21:56.335 INFO  (qtp1205044462-11) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900953931743232)]} 0 39
+2017-07-25 13:21:56.359 INFO  (qtp1205044462-18) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900953949569024)]} 0 11
+2017-07-25 13:21:56.375 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573900953968443392)]} 0 8
+2017-07-25 13:21:56.377 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 13:21:56.377 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@2c68660d
+2017-07-25 13:21:56.441 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@b28eaf[PInfo] main]
+2017-07-25 13:21:56.444 INFO  (searcherExecutor-88-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@b28eaf[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3) Uninverting(_1(6.6.0):C3/2:delGen=1)))}
+2017-07-25 13:21:56.444 INFO  (searcherExecutor-88-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:21:56.444 INFO  (searcherExecutor-88-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@b28eaf[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3) Uninverting(_1(6.6.0):C3/2:delGen=1)))}
+2017-07-25 13:21:56.444 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 13:21:56.444 INFO  (qtp1205044462-17) [   x:PInfo] o.a.s.u.p.LogUpdateProcessorFactory [PInfo]  webapp=/solr path=/update params={commit=true}{commit=} 0 67
+2017-07-25 13:22:00.487 INFO  (qtp1205044462-15) [   x:PInfo] o.a.s.c.S.Request [PInfo]  webapp=/solr path=/select params={q=bukhari&indent=true&wt=json} hits=1 status=0 QTime=0
+2017-07-25 13:22:41.387 INFO  (qtp1205044462-19) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=bukhari&indent=true&wt=json} hits=0 status=0 QTime=0
+2017-07-25 13:23:11.210 INFO  (qtp1205044462-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-07-25 13:23:11.276 INFO  (qtp1205044462-17) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PInfo
+2017-07-25 13:23:11.276 INFO  (qtp1205044462-17) [   ] o.a.s.c.SolrCore [PInfo]  CLOSING SolrCore org.apache.solr.core.SolrCore@10c61475
+2017-07-25 13:23:11.289 INFO  (qtp1205044462-17) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PInfo
+2017-07-25 13:23:11.304 INFO  (qtp1205044462-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=PInfo&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=28
+2017-07-25 13:23:15.509 INFO  (qtp1205044462-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=6
+2017-07-25 13:23:15.565 INFO  (qtp1205044462-18) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.CInfo
+2017-07-25 13:23:15.566 INFO  (qtp1205044462-18) [   ] o.a.s.c.SolrCore [CInfo]  CLOSING SolrCore org.apache.solr.core.SolrCore@42d75962
+2017-07-25 13:23:15.577 INFO  (qtp1205044462-18) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.CInfo
+2017-07-25 13:23:15.579 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=CInfo&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=13
+2017-07-25 13:23:33.194 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=7
+2017-07-25 13:23:33.249 INFO  (qtp1205044462-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=7
+2017-07-25 13:23:33.256 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=PInfo&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 13:23:33.306 INFO  (qtp1205044462-14) [   ] o.a.s.h.a.CoreAdminOperation core create command name=PInfo&action=CREATE&instanceDir=PInfo&wt=json
+2017-07-25 13:23:33.342 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.SolrResourceLoader [PInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 13:23:33.484 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 13:23:33.537 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.s.IndexSchema [PInfo] Schema name=example-data-driven-schema
+2017-07-25 13:23:33.820 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 13:23:33.839 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.CoreContainer Creating SolrCore 'PInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo, trusted=true
+2017-07-25 13:23:33.839 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 13:23:33.839 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.c.SolrCore [[PInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/data/]
+2017-07-25 13:23:34.020 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 13:23:34.043 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 13:23:34.043 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 13:23:34.043 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 13:23:34.043 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 13:23:34.058 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@5c403d89[PInfo] main]
+2017-07-25 13:23:34.058 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf
+2017-07-25 13:23:34.058 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 13:23:34.058 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 13:23:34.058 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/elevate.xml
+2017-07-25 13:23:34.068 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 13:23:34.069 INFO  (searcherExecutor-98-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5c403d89[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:23:34.069 INFO  (searcherExecutor-98-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:23:34.069 INFO  (searcherExecutor-98-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 13:23:34.069 INFO  (searcherExecutor-98-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@5c403d89[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:23:34.069 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573901056416415744
+2017-07-25 13:23:34.070 INFO  (qtp1205044462-14) [   x:PInfo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=PInfo&action=CREATE&instanceDir=PInfo&wt=json} status=0 QTime=764
+2017-07-25 13:23:37.700 INFO  (qtp1205044462-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-07-25 13:23:37.770 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=10
+2017-07-25 13:23:37.782 INFO  (qtp1205044462-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=CInfo&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 13:23:37.817 INFO  (qtp1205044462-11) [   ] o.a.s.h.a.CoreAdminOperation core create command name=CInfo&action=CREATE&instanceDir=CInfo&wt=json
+2017-07-25 13:23:37.850 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.SolrResourceLoader [CInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 13:23:37.910 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 13:23:37.992 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.s.IndexSchema [CInfo] Schema name=example-data-driven-schema
+2017-07-25 13:23:38.294 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 13:23:38.320 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.CoreContainer Creating SolrCore 'CInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo, trusted=true
+2017-07-25 13:23:38.321 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 13:23:38.321 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.SolrCore [[CInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/CInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/data/]
+2017-07-25 13:23:38.332 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 13:23:38.386 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 13:23:38.386 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 13:23:38.386 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 13:23:38.386 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 13:23:38.388 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@bc6a1d3[CInfo] main]
+2017-07-25 13:23:38.390 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/conf
+2017-07-25 13:23:38.390 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 13:23:38.390 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 13:23:38.390 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/conf/elevate.xml
+2017-07-25 13:23:38.397 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 13:23:38.398 INFO  (searcherExecutor-103-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@bc6a1d3[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:23:38.398 INFO  (searcherExecutor-103-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:23:38.398 INFO  (searcherExecutor-103-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 13:23:38.398 INFO  (searcherExecutor-103-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.SolrCore [CInfo] Registered new searcher Searcher@bc6a1d3[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:23:38.399 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573901060956749824
+2017-07-25 13:23:38.405 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=CInfo&action=CREATE&instanceDir=CInfo&wt=json} status=0 QTime=588
+2017-07-25 13:23:56.660 INFO  (qtp1205044462-19) [   x:CInfo] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/conf/managed-schema
+2017-07-25 13:23:57.586 INFO  (qtp1205044462-19) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573901081069486080)]} 0 944
+2017-07-25 13:23:57.593 INFO  (qtp1205044462-13) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573901081079971840)]} 0 3
+2017-07-25 13:23:57.610 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={}{add=[Crime Report (1573901081099894784)]} 0 9
+2017-07-25 13:23:57.611 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-07-25 13:23:57.612 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1c909b5e
+2017-07-25 13:23:57.701 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@32368823[CInfo] main]
+2017-07-25 13:23:57.701 INFO  (searcherExecutor-103-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@32368823[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3/2:delGen=1)))}
+2017-07-25 13:23:57.701 INFO  (searcherExecutor-103-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:23:57.701 INFO  (searcherExecutor-103-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.SolrCore [CInfo] Registered new searcher Searcher@32368823[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.6.0):C3/2:delGen=1)))}
+2017-07-25 13:23:57.701 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-07-25 13:23:57.701 INFO  (qtp1205044462-14) [   x:CInfo] o.a.s.u.p.LogUpdateProcessorFactory [CInfo]  webapp=/solr path=/update params={commit=true}{commit=} 0 90
+2017-07-25 13:24:03.097 INFO  (qtp1205044462-17) [   x:CInfo] o.a.s.c.S.Request [CInfo]  webapp=/solr path=/select params={q=bukhari&indent=true&wt=json} hits=0 status=0 QTime=0
+2017-07-25 13:24:35.138 INFO  (qtp1205044462-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-07-25 13:24:35.205 INFO  (qtp1205044462-19) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PInfo
+2017-07-25 13:24:35.205 INFO  (qtp1205044462-19) [   ] o.a.s.c.SolrCore [PInfo]  CLOSING SolrCore org.apache.solr.core.SolrCore@5ff59b4c
+2017-07-25 13:24:35.225 INFO  (qtp1205044462-19) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.PInfo
+2017-07-25 13:24:35.230 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=PInfo&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=25
+2017-07-25 13:24:44.516 INFO  (qtp1205044462-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=14
+2017-07-25 13:24:44.567 INFO  (qtp1205044462-15) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.CInfo
+2017-07-25 13:24:44.567 INFO  (qtp1205044462-15) [   ] o.a.s.c.SolrCore [CInfo]  CLOSING SolrCore org.apache.solr.core.SolrCore@3ad2206c
+2017-07-25 13:24:44.587 INFO  (qtp1205044462-15) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.CInfo
+2017-07-25 13:24:44.588 INFO  (qtp1205044462-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=CInfo&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=22
+2017-07-25 13:25:02.565 INFO  (qtp1205044462-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=21
+2017-07-25 13:25:02.641 INFO  (qtp1205044462-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=8
+2017-07-25 13:25:02.653 INFO  (qtp1205044462-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=PInfo&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 13:25:02.687 INFO  (qtp1205044462-13) [   ] o.a.s.h.a.CoreAdminOperation core create command name=PInfo&action=CREATE&instanceDir=PInfo&wt=json
+2017-07-25 13:25:02.705 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.SolrResourceLoader [PInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 13:25:02.745 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 13:25:02.810 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.s.IndexSchema [PInfo] Schema name=example-data-driven-schema
+2017-07-25 13:25:03.186 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 13:25:03.219 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.CoreContainer Creating SolrCore 'PInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo, trusted=true
+2017-07-25 13:25:03.219 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 13:25:03.219 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.c.SolrCore [[PInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/data/]
+2017-07-25 13:25:03.902 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 13:25:03.929 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 13:25:03.929 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 13:25:03.929 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 13:25:03.929 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 13:25:03.930 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@2f9356f5[PInfo] main]
+2017-07-25 13:25:03.931 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf
+2017-07-25 13:25:03.931 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 13:25:03.931 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 13:25:03.931 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/PInfo/conf/elevate.xml
+2017-07-25 13:25:03.933 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 13:25:03.936 INFO  (searcherExecutor-108-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@2f9356f5[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:25:03.936 INFO  (searcherExecutor-108-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:25:03.936 INFO  (searcherExecutor-108-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 13:25:03.936 INFO  (searcherExecutor-108-thread-1-processing-x:PInfo) [   x:PInfo] o.a.s.c.SolrCore [PInfo] Registered new searcher Searcher@2f9356f5[PInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:25:03.937 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573901150649843712
+2017-07-25 13:25:03.937 INFO  (qtp1205044462-13) [   x:PInfo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=PInfo&action=CREATE&instanceDir=PInfo&wt=json} status=0 QTime=1250
+2017-07-25 13:25:37.917 INFO  (qtp1205044462-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=13
+2017-07-25 13:25:37.993 INFO  (qtp1205044462-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=21
+2017-07-25 13:25:38.017 INFO  (qtp1205044462-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=CInfo&action=STATUS&wt=json} status=0 QTime=0
+2017-07-25 13:25:38.051 INFO  (qtp1205044462-11) [   ] o.a.s.h.a.CoreAdminOperation core create command name=CInfo&action=CREATE&instanceDir=CInfo&wt=json
+2017-07-25 13:25:38.070 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.SolrResourceLoader [CInfo] Added 51 libs to classloader, from paths: [/home/obiii/Desktop/solr-6.6.0/contrib/clustering/lib, /home/obiii/Desktop/solr-6.6.0/contrib/extraction/lib, /home/obiii/Desktop/solr-6.6.0/contrib/langid/lib, /home/obiii/Desktop/solr-6.6.0/contrib/velocity/lib, /home/obiii/Desktop/solr-6.6.0/dist]
+2017-07-25 13:25:38.128 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.6.0
+2017-07-25 13:25:38.208 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.s.IndexSchema [CInfo] Schema name=example-data-driven-schema
+2017-07-25 13:25:38.509 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-07-25 13:25:38.527 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.CoreContainer Creating SolrCore 'CInfo' using configuration from instancedir /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo, trusted=true
+2017-07-25 13:25:38.527 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-07-25 13:25:38.527 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.c.SolrCore [[CInfo] ] Opening new SolrCore at [/home/obiii/Desktop/solr-6.6.0/server/solr/CInfo], dataDir=[/home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/data/]
+2017-07-25 13:25:39.917 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-07-25 13:25:39.943 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-07-25 13:25:39.943 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-07-25 13:25:39.943 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-07-25 13:25:39.943 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-07-25 13:25:39.945 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.s.SolrIndexSearcher Opening [Searcher@a1de8e9[CInfo] main]
+2017-07-25 13:25:39.945 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/conf
+2017-07-25 13:25:39.945 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-07-25 13:25:39.945 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-07-25 13:25:39.945 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/obiii/Desktop/solr-6.6.0/server/solr/CInfo/conf/elevate.xml
+2017-07-25 13:25:39.947 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-07-25 13:25:39.949 INFO  (searcherExecutor-113-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@a1de8e9[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:25:39.949 INFO  (searcherExecutor-113-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-07-25 13:25:39.949 INFO  (searcherExecutor-113-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-07-25 13:25:39.949 INFO  (searcherExecutor-113-thread-1-processing-x:CInfo) [   x:CInfo] o.a.s.c.SolrCore [CInfo] Registered new searcher Searcher@a1de8e9[CInfo] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-07-25 13:25:39.949 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1573901188411162624
+2017-07-25 13:25:39.950 INFO  (qtp1205044462-11) [   x:CInfo] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=CInfo&action=CREATE&instanceDir=CInfo&wt=json} status=0 QTime=1898
